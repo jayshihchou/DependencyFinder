@@ -1,0 +1,13 @@
+{
+    "name": "com.github.jayshihchou.dependencyfinder",
+    "version": "0.1.0",
+    "displayName": "DependencyFinder",
+    "description": "Dependency Finder",
+    "keywords": [],
+    "author": {
+      "name": "jayshihchou",
+      "email": "jayshihchou@gmail.com",
+      "url": "https://github.com/jayshihchou"
+    }
+  }
+  
