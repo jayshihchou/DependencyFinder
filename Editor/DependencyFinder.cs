@@ -250,6 +250,10 @@ public class DependencyFinder : EditorWindow
     {
         int pFrom = text.IndexOf(a) + a.Length;
         int pTo = text.IndexOf(",", pFrom + 1);
+        if (pTo < pFrom)
+        {
+            pTo = text.Length;
+        }
 
         return text[pFrom..pTo];
     }
