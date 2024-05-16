@@ -239,7 +239,7 @@ public class DependencyFinder : EditorWindow
                 }
                 catch (System.Exception ex)
                 {
-                    Debug.Log(last);
+                    Debug.Log($"found error for guid: '{last}', from line:\n{line}\n, in file:\n{assetPath}\n see error at next error log");
                     Debug.LogError(ex);
                 }
             }
